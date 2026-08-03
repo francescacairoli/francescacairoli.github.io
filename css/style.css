@@ -19,7 +19,7 @@ body {
   margin: 0;
   font-family: var(--sans);
   color: var(--ink);
-  background: var(--paper);
+  background: var(--paper) url("../assets/mountains-bg.svg") center top / cover no-repeat fixed;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1400" preserveAspectRatio="xMidYMax slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eef4f0"/>
+      <stop offset="55%" stop-color="#f3f1e9"/>
+      <stop offset="100%" stop-color="#faf8f4"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1440" height="1400" fill="url(#sky)"/>
+
+  <!-- far layer -->
+  <path d="M0,520 L120,430 L230,480 L340,360 L460,460 L580,380 L700,470 L820,400
+           L940,480 L1060,410 L1180,470 L1300,420 L1440,490 L1440,1400 L0,1400 Z"
+        fill="#cfe0da" opacity="0.55"/>
+
+  <!-- mid layer -->
+  <path d="M0,640 L100,560 L210,620 L330,510 L470,610 L600,520 L740,610 L880,540
+           L1010,620 L1140,550 L1280,620 L1440,560 L1440,1400 L0,1400 Z"
+        fill="#a9c9b6" opacity="0.45"/>
+
+  <!-- near layer -->
+  <path d="M0,760 L140,690 L260,740 L400,660 L540,750 L680,670 L820,750 L960,680
+           L1100,750 L1260,690 L1440,740 L1440,1400 L0,1400 Z"
+        fill="#7fae93" opacity="0.28"/>
+
+  <!-- soft foreground hill -->
+  <path d="M0,900 C240,840 420,880 640,850 C860,820 1040,870 1440,830 L1440,1400 L0,1400 Z"
+        fill="#e9dfc8" opacity="0.35"/>
+</svg>
