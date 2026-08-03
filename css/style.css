@@ -314,19 +314,6 @@ body {
   color: #8a8f98;
 }
 
-.student-legend {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.2rem;
-  margin: 0.5rem 0 0.75rem;
-  font-size: 0.85rem;
-  color: var(--ink-soft);
-}
-
-.student-legend span > .student-status {
-  margin-right: 0.35rem;
-}
-
 .reviewer-list {
   font-size: 0.92rem;
   color: var(--ink-soft);
@@ -392,7 +379,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: 110px;
-  gap: 6px;
+  gap: 14px;
 }
 
 .gallery-item {
@@ -449,6 +436,16 @@ body {
 .contact-section .hero-links a:hover {
   background: #fff;
   color: var(--ink);
+}
+
+.map-embed {
+  margin: 1.5rem 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.map-embed iframe {
+  display: block;
 }
 
 /* Footer */
