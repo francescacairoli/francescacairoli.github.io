@@ -290,6 +290,28 @@ body {
 
 .plain-list.compact li { padding: 0.4rem 0; font-size: 0.88rem; }
 
+.student-status {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+  margin-right: 0.4rem;
+  vertical-align: middle;
+}
+
+.student-current .student-status {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.student-former .student-status {
+  background: #eee;
+  color: #8a8f98;
+}
+
 .reviewer-list {
   font-size: 0.92rem;
   color: var(--ink-soft);
