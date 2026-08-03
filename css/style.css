@@ -347,6 +347,17 @@ body {
 
 .pub-list a:hover { text-decoration: underline; }
 
+.pub-list a.pub-title-link {
+  color: var(--ink);
+  white-space: normal;
+  font-weight: inherit;
+}
+
+.pub-list a.pub-title-link:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
 .pub-more {
   margin-top: 1.5rem;
   font-size: 0.9rem;
