@@ -302,14 +302,29 @@ body {
   vertical-align: middle;
 }
 
-.student-current .student-status {
+.student-current .student-status,
+.student-status-current {
   background: var(--accent-soft);
   color: var(--accent);
 }
 
-.student-former .student-status {
+.student-former .student-status,
+.student-status-former {
   background: #eee;
   color: #8a8f98;
+}
+
+.student-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  margin: 0.5rem 0 0.75rem;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+.student-legend span > .student-status {
+  margin-right: 0.35rem;
 }
 
 .reviewer-list {
